@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Happy Birthday 🤍</h1>
+
+  <button onclick="playMusic()">🎵 Play Music</button>
+
+  <div class="buttons">
+    <button onclick="showSection('beginning')">✨ Our Beginning</button>
+    <button onclick="showSection('love')">🤍 Why I Love You</button>
+    <button onclick="showSection('photo')">📸 Our Photo</button>
+    <button onclick="showSection('final')">🌙 Final Message</button>
+  </div>
+
+  <div id="content">
+    <p class="intro">Tap the buttons above 🤍</p>
+  </div>
+</div>
+
+<audio id="bgMusic" src="song.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
